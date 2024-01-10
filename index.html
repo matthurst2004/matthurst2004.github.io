@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Computer Science Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        html {
+            height: 200%;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        #myname, #cscs {
+            color: white;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #666;
+        }
+
+        .skills {
+            margin-top: 10px;
+        }
+
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .skills li {
+            background-color: #333;
+            color: #fff;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 3px;
+        }
+
+        .contact-form {
+            margin-top: 20px;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        .contact-form button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .connect-with-me {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .connect-with-me a {
+            display: inline-block;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1 id="myname">Matt Hurst</h1>
+        <p id="cscs">Computer Science Student</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            Welcome to my portfolio! I am a computer science student with a focus on web development and software engineering. My journey involves mastering a diverse set of technologies and continuously seeking ways to innovate in the digital landscape.
+        </p>
+    </section>
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>PHP</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>C#</li>
+            <li>.NET</li>
+            <li>NPM</li>
+            <li>Node.js</li>
+            <li>SQL</li>
+        </ul>
+    </section>
+
+    <section class="contact-form">
+        <h2>Contact</h2>
+        <form action="mailto:matthew.a.hurst@outlook.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <div class="connect-with-me">
+        <h2>Connect with Me</h2>
+        <a href="https://www.linkedin.com/in/matthew-hurst-1027a52a7/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/matthurst2004" target="_blank">GitHub</a>
+    </div>
+
+    <footer>
+        &copy; 2024 Matt Hurst - Computer Science Portfolio
+    </footer>
+
+</body>
+
+</html>
